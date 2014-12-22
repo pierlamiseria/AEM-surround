@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
-			"architecture" : "x86"
+			"revision" : 9,
+			"architecture" : "x64"
 		}
 ,
 		"openrect" : [ 429.0, 49.0, 209.0, 410.0 ],
@@ -77,8 +77,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 112.0, 18.0 ],
-					"text" : "ilsuonodipiero"
+					"patching_rect" : [ 15.0, 150.0, 83.0, 18.0 ],
+					"text" : "anellobose"
 				}
 
 			}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ambiscore>
-	<snapshot index="ilsuonodipiero">
+	<snapshot index="anellobose">
 		<point>
 			<number>1</number>
 			<xyz>0.000000 1.000000 0.000000</xyz>
@@ -32,62 +32,6 @@
 		<point>
 			<number>8</number>
 			<xyz>-0.951057 -0.309017 0.000000</xyz>
-		</point>
-		<point>
-			<number>9</number>
-			<xyz>-0.951057 0.309017 0.000000</xyz>
-		</point>
-		<point>
-			<number>10</number>
-			<xyz>-0.587785 0.809017 0.000000</xyz>
-		</point>
-		<point>
-			<number>11</number>
-			<xyz>0.000000 0.809017 0.587785</xyz>
-		</point>
-		<point>
-			<number>12</number>
-			<xyz>0.520026 0.619743 0.587785</xyz>
-		</point>
-		<point>
-			<number>13</number>
-			<xyz>0.796726 0.140484 0.587785</xyz>
-		</point>
-		<point>
-			<number>14</number>
-			<xyz>0.700629 -0.404508 0.587785</xyz>
-		</point>
-		<point>
-			<number>15</number>
-			<xyz>0.276700 -0.760227 0.587785</xyz>
-		</point>
-		<point>
-			<number>16</number>
-			<xyz>-0.276700 -0.760227 0.587785</xyz>
-		</point>
-		<point>
-			<number>17</number>
-			<xyz>-0.700629 -0.404508 0.587785</xyz>
-		</point>
-		<point>
-			<number>18</number>
-			<xyz>-0.796726 0.140484 0.587785</xyz>
-		</point>
-		<point>
-			<number>19</number>
-			<xyz>-0.520026 0.619743 0.587785</xyz>
-		</point>
-		<point>
-			<number>20</number>
-			<xyz>0.000000 0.309017 0.951057</xyz>
-		</point>
-		<point>
-			<number>21</number>
-			<xyz>0.267617 -0.154508 0.951057</xyz>
-		</point>
-		<point>
-			<number>22</number>
-			<xyz>-0.267617 -0.154508 0.951057</xyz>
 		</point>
 	</snapshot>
 </ambiscore>
