@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -36,8 +36,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1215.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1216.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1215.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -49,8 +48,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1185.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1186.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1185.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -63,8 +61,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1155.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1156.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1155.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -77,8 +74,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1125.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1126.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1125.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -90,8 +86,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1095.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1096.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1095.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -103,8 +98,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1065.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1066.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1065.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -116,8 +110,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1035.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 1037.0, 9.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1035.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -690,7 +683,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 24 ],
+					"destination" : [ "obj-24", 23 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -1177,8 +1170,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-25" : [ "OUTS", "OUTS", 0 ],
-			"obj-23" : [ "SUB", "SUB", 0 ]
+			"obj-23" : [ "SUB", "SUB", 0 ],
+			"obj-25" : [ "OUTS", "OUTS", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
