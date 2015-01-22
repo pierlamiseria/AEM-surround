@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 9,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 1068.0, 49.0, 208.0, 412.0 ],
+		"openrect" : [ 1282.0, 50.0, 208.0, 412.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
