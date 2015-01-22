@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ambiscore>
-	<snapshot index="anellobose">
+<!-- Stereo -->	
+	<snapshot index="STEREO">
+		<point>
+			<number>1</number>
+			<xyz>-0.540000 0.840000 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.540000 0.840000 0.000000</xyz>
+		</point>
+	</snapshot>
+<!-- Quadro -->	
+<!-- Six -->
+<!-- Otto -->
+	<snapshot index="Ottofonia">
 		<point>
 			<number>1</number>
 			<xyz>-0.540000 0.840000 0.000000</xyz>
