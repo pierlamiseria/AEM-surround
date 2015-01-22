@@ -37,7 +37,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1080.0, 80.0, 83.0, 20.0 ],
+					"patching_rect" : [ 1155.0, 5.0, 83.0, 20.0 ],
 					"text" : "testsignal"
 				}
 
@@ -4094,20 +4094,20 @@
 					"patching_rect" : [ 30.0, 435.0, 465.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"active" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
-						"aed_scale" : 0.0,
-						"center_att_db" : 0.000031,
-						"center_curve" : 8192.001953,
-						"center_size" : 0.007813,
+						"aed_scale" : 158456627259983578844381577216.0,
+						"center_att_db" : 0.007812,
+						"center_curve" : 0.0,
+						"center_size" : 562661720850432.0,
 						"coord_angles" : 0,
 						"coord_system" : 0,
-						"db_unit" : 0.007813,
-						"dist_att" : 524288.125,
+						"db_unit" : 0.,
+						"dist_att" : 0.,
 						"distance_mode" : 1,
 						"gain" : 0.0,
 						"interpolation" : 1,
 						"order" : 3,
 						"type" : 1,
-						"xyz_scale" : 524288.125
+						"xyz_scale" : 0.0
 					}
 ,
 					"text" : "ambiencode~ 3 8"
@@ -4126,12 +4126,12 @@
 					"patching_rect" : [ 30.0, 470.0, 465.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-						"aed_scale" : 524288.125,
+						"aed_scale" : 0.0,
 						"coord_angles" : 0,
 						"coord_system" : 0,
-						"gain" : 0.007813,
+						"gain" : 0.0,
 						"order" : 3,
-						"orderweight" : [ 0.000098, 0.0, 0.0, 0.0 ],
+						"orderweight" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"type" : 1,
 						"xyz_scale" : 0.0
 					}
@@ -4794,223 +4794,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 84.5, 30.0, 144.5, 30.0 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 23 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 22 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 21 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 20 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 19 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 430.0, 538.0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 18 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 17 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 16 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 15 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 14 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 13 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 12 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 11 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 10 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 9 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 8 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 7 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -5993,12 +5776,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6::obj-23" : [ "SUB", "SUB", 0 ],
-			"obj-1::obj-2" : [ "AES IN", "AES IN", 0 ],
-			"obj-21::obj-3" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-7::obj-2" : [ "~[2]", "~", 0 ],
 			"obj-4::obj-2" : [ "~", "~", 0 ],
+			"obj-6::obj-23" : [ "SUB", "SUB", 0 ],
+			"obj-21::obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-6::obj-25" : [ "OUTS", "OUTS", 0 ],
-			"obj-7::obj-2" : [ "~[2]", "~", 0 ]
+			"obj-1::obj-2" : [ "AES IN", "AES IN", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
