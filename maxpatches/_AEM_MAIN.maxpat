@@ -31,6 +31,20 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Menlo Regular",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 810.0, 35.0, 90.0, 20.0 ],
+					"text" : "AEM_sources"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Menlo Regular",
 					"fontsize" : 11.0,
 					"id" : "obj-84",
 					"maxclass" : "newobj",
@@ -1609,6 +1623,15 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1628,6 +1651,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 144.5, 96.0, 39.5, 96.0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -2676,13 +2708,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6::obj-35" : [ "TOP", "TOP", 0 ],
-			"obj-6::obj-23" : [ "SUB", "SUB", 0 ],
-			"obj-6::obj-25" : [ "BOSE", "BOSE", 0 ],
 			"obj-4::obj-2" : [ "~", "~", 0 ],
-			"obj-21::obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-7::obj-2" : [ "~[2]", "~", 0 ],
-			"obj-1::obj-2" : [ "AES IN", "AES IN", 0 ]
+			"obj-6::obj-25" : [ "BOSE", "BOSE", 0 ],
+			"obj-6::obj-23" : [ "SUB", "SUB", 0 ],
+			"obj-1::obj-2" : [ "AES IN", "AES IN", 0 ],
+			"obj-6::obj-35" : [ "TOP", "TOP", 0 ],
+			"obj-21::obj-3" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2743,6 +2775,13 @@
 			}
 , 			{
 				"name" : "AEM_top.maxpat",
+				"bootpath" : "/Users/giuseppe/Git_REPO/_UNIROMA2/AEM-surround/maxpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AEM_sources.maxpat",
 				"bootpath" : "/Users/giuseppe/Git_REPO/_UNIROMA2/AEM-surround/maxpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
