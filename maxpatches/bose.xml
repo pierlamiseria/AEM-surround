@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ambiscore>
+<!-- Stereo -->
+	<snapshot index="STEREO">
+		<point>
+			<number>1</number>
+			<xyz>-0.540000 0.840000 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.540000 0.840000 0.000000</xyz>
+		</point>
+	</snapshot>
+<!-- Quadro -->
+<snapshot index="QUADRO">
+	<point>
+		<number>1</number>
+		<xyz>-0.540000 0.840000 0.000000</xyz>
+	</point>
+	<point>
+		<number>2</number>
+		<xyz>0.540000 0.840000 0.000000</xyz>
+	</point>
+	<point>
+		<number>3</number>
+		<xyz>-0.870000 -0.340000 0.000000</xyz>
+	</point>
+	<point>
+		<number>4</number>
+		<xyz>0.870000 -0.340000 0.000000</xyz>
+	</point>
+</snapshot>
+<!-- Six -->
+<snapshot index="SIX">
+	<point>
+		<number>1</number>
+		<xyz>-0.540000 0.840000 0.000000</xyz>
+	</point>
+	<point>
+		<number>2</number>
+		<xyz>0.540000 0.840000 0.000000</xyz>
+	</point>
+	<point>
+		<number>3</number>
+		<xyz>-0.870000 0.350000 0.000000</xyz>
+	</point>
+	<point>
+		<number>4</number>
+		<xyz>0.870000 0.350000 0.000000</xyz>
+	</point>
+	<point>
+		<number>5</number>
+		<xyz>-0.870000 -0.340000 0.000000</xyz>
+	</point>
+	<point>
+		<number>6</number>
+		<xyz>0.870000 -0.340000 0.000000</xyz>
+	</point>
+</snapshot>
+<!-- Otto -->
+	<snapshot index="OTTOFONIA">
+		<point>
+			<number>1</number>
+			<xyz>-0.540000 0.840000 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.540000 0.840000 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>-0.870000 0.350000 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>0.870000 0.350000 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<xyz>-0.870000 -0.340000 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<xyz>0.870000 -0.340000 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<xyz>-0.330000 -0.830000 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<xyz>0.330000 -0.830000 0.000000</xyz>
+		</point>
+	</snapshot>
+</ambiscore>
