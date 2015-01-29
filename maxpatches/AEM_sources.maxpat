@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 640.0, 49.0, 211.0, 410.0 ],
+		"openrect" : [ 853.0, 50.0, 211.0, 410.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -118,9 +118,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "virtualloudspeakers.xml", "bang", "bang" ],
-					"patching_rect" : [ 45.0, 35.0, 235.0, 20.0 ],
-					"text" : "t b virtualloudspeakers.xml b b"
+					"outlettype" : [ "bang", "sources.xml", "bang", "bang" ],
+					"patching_rect" : [ 45.0, 35.0, 148.0, 20.0 ],
+					"text" : "t b sources.xml b b"
 				}
 
 			}
@@ -207,7 +207,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 265.0, 155.0, 23.0 ],
+					"patching_rect" : [ 210.0, 225.0, 155.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.5, 45.0, 135.0, 23.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],

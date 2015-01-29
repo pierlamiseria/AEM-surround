@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 9,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"openrect" : [ 429.0, 49.0, 209.0, 410.0 ],
@@ -29,6 +29,60 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Menlo Regular",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 210.0, 32.5, 18.0 ],
+					"text" : "4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Menlo Regular",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 180.0, 185.0, 155.0, 20.0 ],
+					"text" : "route snapshotmenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
+					"bgcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"discolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Menlo Bold",
+					"fontsize" : 14.0,
+					"framecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"hltcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"id" : "obj-12",
+					"items" : [ "STEREO", ",", "QUADRO", ",", "SIX", ",", "OTTOFONIA" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 240.0, 155.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 37.5, 45.0, 135.0, 23.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"togcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
@@ -60,25 +114,11 @@
 					"patching_rect" : [ 225.0, 15.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.5, 10.0, 135.0, 30.0 ],
-					"text" : "SPEAKERS",
+					"text" : "BOSE",
 					"textcolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
 					"texton" : "INPUTS",
 					"textovercolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
 					"textoveroncolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Menlo Regular",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 83.0, 18.0 ],
-					"text" : "anellobose"
 				}
 
 			}
@@ -118,9 +158,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "loudspeakers.xml", "bang", "bang" ],
-					"patching_rect" : [ 15.0, 40.0, 184.0, 20.0 ],
-					"text" : "t b loudspeakers.xml b b"
+					"outlettype" : [ "bang", "bose.xml", "bang", "bang" ],
+					"patching_rect" : [ 15.0, 40.0, 126.0, 20.0 ],
+					"text" : "t b bose.xml b b"
 				}
 
 			}
@@ -236,7 +276,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -258,7 +298,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
+					"source" : [ "obj-12", 1 ]
 				}
 
 			}
@@ -268,6 +308,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -286,6 +335,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-71", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 853.0, 49.0, 212.0, 410.0 ],
+		"openrect" : [ 1067.0, 50.0, 212.0, 410.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 555.0, 340.0, 119.0, 18.0 ],
-					"presentation_rect" : [ 513.0, 625.0, 0.0, 0.0 ],
 					"text" : "set $1min $2sec"
 				}
 
@@ -117,7 +116,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 450.0, 410.0, 155.0, 18.0 ],
-					"presentation_rect" : [ 508.0, 632.0, 0.0, 0.0 ],
 					"text" : "set $1bit $2KHz $3ch"
 				}
 
@@ -165,7 +163,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 555.0, 260.0, 61.0, 20.0 ],
-					"presentation_rect" : [ 523.0, 269.0, 0.0, 0.0 ],
 					"text" : "* 0.001"
 				}
 
@@ -180,7 +177,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 630.0, 290.0, 39.0, 20.0 ],
-					"presentation_rect" : [ 598.0, 299.0, 0.0, 0.0 ],
 					"text" : "% 60"
 				}
 
@@ -195,7 +191,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 555.0, 290.0, 39.0, 20.0 ],
-					"presentation_rect" : [ 523.0, 299.0, 0.0, 0.0 ],
 					"text" : "/ 60"
 				}
 
