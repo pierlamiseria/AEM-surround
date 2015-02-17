@@ -206,6 +206,14 @@
 		<number>30</number>
 		<xyz>0.710000 -0.420000 0.000000</xyz>
 	</point>
+	<!-- <point>
+		<number>31</number>
+		<xyz>-0.710000 -0.710000 0.000000</xyz>
+	</point>
+	<point>
+		<number>32</number>
+		<xyz>-0.420000 -0.700000 0.000000</xyz>
+	</point> -->
 	<point>
 		<number>33</number>
 		<xyz>-0.140000 -0.710000 0.000000</xyz>
@@ -214,5 +222,13 @@
 		<number>34</number>
 		<xyz>0.140000 -0.710000 0.000000</xyz>
 	</point>
+	<!-- <point>
+		<number>35</number>
+		<xyz>0.420000 -0.700000 0.000000</xyz>
+	</point>
+	<point>
+		<number>36</number>
+		<xyz>0.710000 -0.710000 0.000000</xyz>
+	</point> -->	
 </snapshot>
 </ambiscore>

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 853.0, 50.0, 211.0, 410.0 ],
+		"openrect" : [ 218.0, 50.0, 211.0, 410.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -30,6 +30,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Menlo Regular",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 195.0, 100.0, 76.0, 20.0 ],
+					"text" : "delay 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgoncolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
 					"bgovercolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
@@ -37,7 +51,7 @@
 					"bordercolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
 					"borderoncolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
 					"fontname" : "Menlo Regular",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-89",
 					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
@@ -48,7 +62,7 @@
 					"patching_rect" : [ 345.0, 10.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.5, 10.0, 135.0, 30.0 ],
-					"text" : "SOURCES",
+					"text" : "SOURCES BOSE",
 					"textcolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
 					"texton" : "INPUTS",
 					"textovercolor" : [ 0.003851, 0.0, 0.0, 1.0 ],
@@ -77,8 +91,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 110.0, 32.5, 18.0 ],
-					"text" : "7"
+					"patching_rect" : [ 45.0, 130.0, 32.5, 18.0 ],
+					"text" : "2"
 				}
 
 			}
@@ -91,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 45.0, 60.0, 83.0, 20.0 ],
+					"patching_rect" : [ 45.0, 105.0, 83.0, 20.0 ],
 					"text" : "delay 2700"
 				}
 
@@ -118,9 +132,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "sources.xml", "bang", "bang" ],
-					"patching_rect" : [ 45.0, 35.0, 148.0, 20.0 ],
-					"text" : "t b sources.xml b b"
+					"outlettype" : [ "bang", "sourcesB.xml", "bang", "bang" ],
+					"patching_rect" : [ 45.0, 35.0, 155.0, 20.0 ],
+					"text" : "t b sourcesB.xml b b"
 				}
 
 			}
@@ -144,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 95.0, 97.0, 20.0 ],
+					"patching_rect" : [ 90.0, 150.0, 97.0, 20.0 ],
 					"text" : "prepend read"
 				}
 
@@ -158,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 189.0, 125.0, 158.0, 18.0 ],
+					"patching_rect" : [ 195.0, 125.0, 158.0, 18.0 ],
 					"text" : "interpolation_mode 1"
 				}
 
@@ -313,6 +327,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -376,7 +399,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 2 ]

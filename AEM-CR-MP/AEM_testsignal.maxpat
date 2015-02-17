@@ -27,6 +27,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",

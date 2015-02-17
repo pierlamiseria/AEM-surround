@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 6.0, 529.0, 481.0, 407.0 ],
+		"openrect" : [ 432.0, 531.0, 481.0, 407.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,6 +28,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Menlo Regular",
@@ -1581,9 +1582,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "SUB", "SUB", 0 ],
 			"obj-25" : [ "BOSE", "BOSE", 0 ],
-			"obj-35" : [ "TOP", "TOP", 0 ]
+			"obj-35" : [ "TOP", "TOP", 0 ],
+			"obj-23" : [ "SUB", "SUB", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
