@@ -30,6 +30,20 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 840.0, 755.0, 428.0, 47.0 ],
+					"text" : "HISS TOOLS V1.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -1826,10 +1840,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 13 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 234.5, 435.0, 232.5, 435.0 ],
+					"midpoints" : [ 234.5, 435.0, 24.5, 435.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -1897,8 +1911,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "HIRT_Buffer_Write_Attributes.maxpat",
-				"bootpath" : "/Users/giuseppe/Documents/Conservatorio/MaxMSP_Externals/HIRT_1.0/HIRT Help Files",
-				"patcherrelativepath" : "../../Documents/Conservatorio/MaxMSP_Externals/HIRT_1.0/HIRT Help Files",
+				"bootpath" : "/Users/giuseppe/Documents/Conservatorio/MaxMSP_Externals/HIRT_v1.1/HIRT Help Files",
+				"patcherrelativepath" : "../../../../Documents/Conservatorio/MaxMSP_Externals/HIRT_v1.1/HIRT Help Files",
 				"type" : "JSON",
 				"implicit" : 1
 			}
