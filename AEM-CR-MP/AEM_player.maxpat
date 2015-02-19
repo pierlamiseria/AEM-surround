@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 431.0, 49.0, 212.0, 410.0 ],
+		"openrect" : [ 667.0, 44.0, 212.0, 410.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 218.0, 50.0, 211.0, 410.0 ],
+		"openrect" : [ 454.0, 44.0, 211.0, 410.0 ],
 		"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -30,14 +30,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "bang",
 					"id" : "obj-5",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 521.0, 12.0, 0.0, 0.0 ]
+					"patching_rect" : [ 525.0, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -85,7 +84,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "ambimonitor",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -263,14 +262,13 @@
 					"interpolation_time" : 1000,
 					"line_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "ambimonitor",
-					"mode" : 1,
 					"name_color" : [ 0.979335, 0.973309, 0.969624, 1.0 ],
 					"number_font_name" : "Menlo Regular",
 					"numbers" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 305.0, 150.0, 230.0 ],
+					"patching_rect" : [ 15.0, 305.0, 150.0, 150.0 ],
 					"point_color" : [ 1.0, 0.945033, 0.043306, 1.0 ],
 					"point_color1" : [ 0.74902, 0.0, 0.0, 1.0 ],
 					"point_color2" : [ 0.0, 0.74902, 0.0, 1.0 ],
@@ -278,7 +276,7 @@
 					"point_color4" : [ 0.74902, 0.380392, 0.0, 1.0 ],
 					"point_size" : 8.0,
 					"presentation" : 1,
-					"presentation_rect" : [ 22.5, 130.0, 165.0, 252.5 ],
+					"presentation_rect" : [ 22.5, 225.0, 165.0, 165.0 ],
 					"prototypename" : "small_light_grey",
 					"varname" : "tracksorder"
 				}
@@ -376,7 +374,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
