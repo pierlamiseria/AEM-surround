@@ -10,7 +10,7 @@
 			<xyz>-0.500000 0.866025 0.000000</xyz>
 		</point>
 	</snapshot>
-	<snapshot index="wide_stereo">
+	<snapshot index="wide stereo">
 		<point>
 			<number>2</number>
 			<xyz>0.707107 0.707107 0.000000</xyz>
@@ -38,7 +38,7 @@
 			<xyz>-0.707107 0.707107 0.000000</xyz>
 		</point>
 	</snapshot>
-	<snapshot index="fivedotone">
+	<snapshot index="five[dot]one">
 		<point>
 			<number>4</number>
 			<xyz>0.000000 0.000000 0.000000</xyz>
@@ -64,7 +64,7 @@
 			<xyz>-0.500000 0.866025 0.000000</xyz>
 		</point>
 	</snapshot>
-	<snapshot index="six_stereo+quadro">
+	<snapshot index="six [stereo + quadro]">
 		<point>
 			<number>6</number>
 			<xyz>0.707107 -0.707107 0.000000</xyz>
@@ -90,7 +90,7 @@
 			<xyz>-0.258819 0.965926 0.000000</xyz>
 		</point>
 	</snapshot>
-		<snapshot index="eight_stereo+six">
+		<snapshot index="eight [stereo + six]">
 			<point>
 			<number>8</number>
 			<xyz>0.707107 -0.707107 0.000000</xyz>
@@ -124,7 +124,7 @@
 			<xyz>-0.258819 0.965926 0.000000</xyz>
 		</point>
 	</snapshot>
-	<snapshot index="odd/even">
+	<snapshot index="odd even">
 		<point>
 			<number>8</number>
 			<xyz>0.382683 -0.923880 0.000000</xyz>
